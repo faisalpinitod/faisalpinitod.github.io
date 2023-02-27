@@ -548,6 +548,14 @@ header .navbar ul li a:hover{
     .container img{
         width:90%
        }
+
+       .skills-body{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* width:90%;
+        margin:auto;
+        margin-top: 25px; */
+    }
    
 
  }
