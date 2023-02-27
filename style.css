@@ -424,7 +424,14 @@ header .navbar ul li a:hover{
     height: 100%;
 }
 
-
+.skills-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.skills-body>div{
+    border: 0px solid grey;
+    text-align: center;
+}
 #github-stats{
     text-align: center;
     color: white;
