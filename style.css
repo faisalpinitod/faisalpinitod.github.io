@@ -444,7 +444,12 @@ header .navbar ul li a:hover{
 #github-stats{
     text-align: center;
     color: white;
+    width:90%;
+    margin: auto;
 }
+/* .container img{
+    width:90%
+   } */
 
 
 
@@ -473,6 +478,9 @@ header .navbar ul li a:hover{
     .home{
         padding:1rem 4rem;
     }
+    .container img{
+        width:90%
+       }
 
 }
 
@@ -493,7 +501,7 @@ header .navbar ul li a:hover{
    body{
        padding:0;
    }
-   .stats img{
+   .container img{
     width:90%
    }
 
@@ -505,7 +513,7 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
-    .stats{
+    .container img{
         width:90%
        }
    
@@ -537,7 +545,7 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
-    .stats img{
+    .container img{
         width:90%
        }
    
