@@ -418,6 +418,7 @@ header .navbar ul li a:hover{
 }
 .margin{
     margin-left: 5%;
+    
 }
 .img{
     width: 100%;
@@ -427,11 +428,17 @@ header .navbar ul li a:hover{
 .skills-body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    width:90%;
+    margin:auto;
+    margin-top: 25px;
 }
 .skills-body>div{
-    border: 0px solid grey;
+    border: 2px solid black;
+    background-color: rgb(56, 52, 52);
     text-align: center;
+    color: white;
 }
+
 #github-stats{
     text-align: center;
     color: white;
@@ -484,6 +491,10 @@ header .navbar ul li a:hover{
    body{
        padding:0;
    }
+   .stats img{
+    width:90%
+   }
+
 
 }
 
@@ -492,6 +503,10 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+    .stats{
+        width:90%
+       }
+   
  
  }
 
@@ -520,5 +535,9 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
+    .stats img{
+        width:90%
+       }
+   
 
  }
